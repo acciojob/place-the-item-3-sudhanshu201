@@ -1,30 +1,9 @@
 
 /* Your CSS Code here. */
 /* Your CSS Code here. */
-.holder{
-    display: flex;
-    background-color: lightcoral;
-    height: 100%;
-    width: 100%;
-    justify-content: space-between;
-    
-   
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    
-    
-    
-}
-
-.holder .item{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 200px;
-    width: 30vw;
-    margin: 43px, 10px;
-    background-color: blue;
-    
-    
-    
-}
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+  }
+  
